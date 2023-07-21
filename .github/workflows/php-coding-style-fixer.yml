@@ -1,6 +1,7 @@
 name: PHP Coding Style Fixer
 
 on:
+  push:
   workflow_call:
 
 jobs:
