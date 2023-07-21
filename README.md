@@ -1,3 +1,11 @@
+[![CS Fixer](https://github.com/cable8mm/sentence-to-keywords/actions/workflows/php-coding-style-fixer.yml/badge.svg)](https://github.com/cable8mm/sentence-to-keywords/actions/workflows/php-coding-style-fixer.yml)
+[![Test](https://github.com/cable8mm/sentence-to-keywords/actions/workflows/php-test.yml/badge.svg)](https://github.com/cable8mm/sentence-to-keywords/actions/workflows/php-test.yml)
+[![Latest Stable Version](http://poser.pugx.org/cable8mm/sentence-to-keywords/v)](https://packagist.org/packages/cable8mm/sentence-to-keywords)
+[![Total Downloads](http://poser.pugx.org/cable8mm/sentence-to-keywords/downloads)](https://packagist.org/packages/cable8mm/sentence-to-keywords)
+[![Latest Unstable Version](http://poser.pugx.org/cable8mm/sentence-to-keywords/v/unstable)](https://packagist.org/packages/cable8mm/sentence-to-keywords)
+[![License](http://poser.pugx.org/cable8mm/sentence-to-keywords/license)](https://packagist.org/packages/cable8mm/sentence-to-keywords)
+[![PHP Version Require](http://poser.pugx.org/cable8mm/sentence-to-keywords/require/php)](https://packagist.org/packages/cable8mm/sentence-to-keywords)
+
 ## About
 
 Use a search engine(naver.com) to extract important keywords from sentences and correct typos.
