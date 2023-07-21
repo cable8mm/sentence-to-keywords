@@ -39,8 +39,8 @@ class ToWords
 
         $google_replace_string = '';
         $google_match_count = '';
-        foreach($countMatches as $k=>$countMatch) {
-            if(preg_match('/^[0-9\.]+$/', $k) || $countMatch < self::THRESHOLD) {
+        foreach ($countMatches as $k => $countMatch) {
+            if (preg_match('/^[0-9\.]+$/', $k) || $countMatch < self::THRESHOLD) {
                 continue;
             }
             $this->result[] = $k;
