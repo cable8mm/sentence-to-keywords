@@ -53,6 +53,18 @@ print_r(new ToWords('오스트렐리아 영어 스픽킹));
         [2] => 오스트레일리아
     )
 
+## Fix coding style
+
+```sh
+composer lint
+```
+
+## Test
+
+```sh
+composer test
+```
+
 ## License
 
 The Sentence To Keywords is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
