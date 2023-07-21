@@ -1,12 +1,10 @@
 {
-    "name": "cable8mm/phpunit-start-kit",
-    "description": "Phpunit Start Kit is the simple code for starting TDD",
+    "name": "cable8mm/sentence-to-keywords",
+    "description": "Use a search engine(naver.com) to extract important keywords from sentences and correct typos.",
     "keywords": [
-        "phpunit",
-        "php",
-        "development",
-        "tdd",
-        "startkit"
+        "sentence",
+        "keywords",
+        "searchengine"
     ],
     "type": "project",
     "require": {

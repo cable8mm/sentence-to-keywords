@@ -1,43 +1,58 @@
-# Phpunit Start Kit
-
-[![Latest Stable Version](https://poser.pugx.org/cable8mm/phpunit-start-kit/v)](//packagist.org/packages/cable8mm/phpunit-start-kit)
-[![Total Downloads](https://poser.pugx.org/cable8mm/phpunit-start-kit/downloads)](//packagist.org/packages/cable8mm/phpunit-start-kit)
-[![StyleCI](https://github.styleci.io/repos/198655101/shield?branch=master)](https://github.styleci.io/repos/198655101)
-[![Build](https://github.com/cable8mm/phpunit-start-kit/actions/workflows/php.yml/badge.svg)](https://github.com/cable8mm/phpunit-start-kit/actions/workflows/php.yml)
-[![License](https://poser.pugx.org/cable8mm/phpunit-start-kit/license)](//packagist.org/packages/cable8mm/phpunit-start-kit)
-
 ## About
 
-Phpunit Start Kit is a PHP-TDD-Skeleton for library like Sympony Components.
+Use a search engine(naver.com) to extract important keywords from sentences and correct typos.
+
+## Installation
+
+```sh
+composer require cable8mm/sentence-to-keywords
+```
 
 ## Usage
 
-If your namespace is `Cable8mm\PhpunitStartKit`,
-
-Install:
-
-```sh
-composer create-project cable8mm/phpunit-start-kit project-name
-cd project-name
-composer start Cable8mm\\PhpunitStartKit
+```php
+print_r(new ToWords('사칙연산 잘 하는 법));
 ```
 
-Test:
+    Array
+    (
+        [0] => 사칙연산
+        [1] => 하는
+        [2] => 연산
+        [3] => 잘
+        [4] => 하는법
+        [5] => 사칙연산잘하는법
+        [6] => 법
+        [7] => 사칙 연산
+    )
 
-```sh
-➜  phpunit-start-kit git:(master) ✗ composer test
-PHPUnit 7.5.0 by Sebastian Bergmann and contributors.
-
-.                                                                   1 / 1 (100%)
-
-Time: 89 ms, Memory: 10.00MB
-
-OK (1 test, 1 assertion)
-➜  phpunit-start-kit git:(master) ✗
+```php
+print_r(new ToWords('키우기 좋은 견종));
 ```
 
-Additional it provides both `StyleCI` and `TravisCI` and `Github Action` config files(`.styleci.yml`, `.travis.yml`, `php.yml`).
+    Array
+    (
+        [0] => 견종
+        [1] => 키우기 좋은 견종
+        [2] => 키우기
+        [3] => 좋은
+        [4] => 키우기좋은견종
+        [5] => 키우기 좋은
+        [6] => 기르기
+        [7] => 좋은 견종
+    )
+
+```php
+print_r(new ToWords('오스트렐리아 영어 스픽킹));
+```
+
+    Array
+    (
+        [0] => 영어
+        [1] => 스피킹
+        [2] => 오스트레일리아
+    )
 
 ## License
 
-The Phpunit Start Kit is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Sentence To Keywords is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
