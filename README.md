@@ -1,14 +1,22 @@
+# Sentence To Keywords
+
 [![CS Fixer](https://github.com/cable8mm/sentence-to-keywords/actions/workflows/php-coding-style-fixer.yml/badge.svg)](https://github.com/cable8mm/sentence-to-keywords/actions/workflows/php-coding-style-fixer.yml)
 [![Test](https://github.com/cable8mm/sentence-to-keywords/actions/workflows/php-test.yml/badge.svg)](https://github.com/cable8mm/sentence-to-keywords/actions/workflows/php-test.yml)
-[![Latest Stable Version](http://poser.pugx.org/cable8mm/sentence-to-keywords/v)](https://packagist.org/packages/cable8mm/sentence-to-keywords)
-[![Total Downloads](http://poser.pugx.org/cable8mm/sentence-to-keywords/downloads)](https://packagist.org/packages/cable8mm/sentence-to-keywords)
-[![Latest Unstable Version](http://poser.pugx.org/cable8mm/sentence-to-keywords/v/unstable)](https://packagist.org/packages/cable8mm/sentence-to-keywords)
-[![License](http://poser.pugx.org/cable8mm/sentence-to-keywords/license)](https://packagist.org/packages/cable8mm/sentence-to-keywords)
-[![PHP Version Require](http://poser.pugx.org/cable8mm/sentence-to-keywords/require/php)](https://packagist.org/packages/cable8mm/sentence-to-keywords)
+![GitHub Release](https://img.shields.io/github/v/release/cable8mm/sentence-to-keywords?logo=packagist&color=F28D1A)
+![Packagist Downloads](https://img.shields.io/packagist/dt/cable8mm/sentence-to-keywords?logo=packagist&color=F28D1A)
+![minimum PHP version](https://img.shields.io/badge/php-%3E%3D_8.0-8892BF.svg?logo=php)
+![GitHub License](https://img.shields.io/github/license/cable8mm/sentence-to-keywords)
 
-## About
+사용자가 검색창에 검색어를 넣을 경우, 오타 혹은 문장을 단어로 변환하여 검색을 해야 합니다. 자연어 처리 보다 간단하게 국내 검색엔진의 결과를 파싱한 후 중요 단어를 얻을 수 있습니다.
 
 Use a search engine(naver.com) to extract important keywords from sentences and correct typos.
+
+## Features
+
+- [x] 오타도 높은 확률로 수정
+- [x] 긴 문장에서도 중요 키워드를 얻을 수 있음
+- [x] 데이터베이스 사용 없음
+- [x] 인증키 없음
 
 ## Installation
 

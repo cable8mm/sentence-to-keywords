@@ -41,7 +41,7 @@ class ToWordsTest extends TestCase
     public function test_GetGoodWordsAboutTypo()
     {
         // Arrange
-        $in = '오스트렐리아 영어 스픽킹';
+        $in = '오스트렐리아 영어 스피킹';
 
         // Act
         $toWords = new ToWords($in);
