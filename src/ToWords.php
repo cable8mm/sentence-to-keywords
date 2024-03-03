@@ -6,7 +6,7 @@ namespace Cable8mm\SentenceToWords;
 
 class ToWords
 {
-    private const THRESHOLD = 2;
+    private const THRESHOLD = 1;
 
     private string $fetchUrl = 'https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query={ENCODED_KEYWORD}';
 
